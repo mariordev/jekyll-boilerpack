@@ -33,9 +33,17 @@ git clone https://github.com/mariordev/jekyll-boilerpack.git .
 npm update
 ```
 
+## Grunt
+
+Grunt is already pre-configured to run Sass preprocessing, js uglify, autoprefixing, and minification tasks and watch for changes in `_source/js/*.js` and `_source/sass/*.scss`. All you have to do is:
+
+```bash
+grunt
+```
+
 ## Folder Structure
 
-After running `npm update`, you'll have the following folder structure:
+After running `npm update` and `grunt`, you'll have the following folder structure:
 
 	_includes
 	_layouts
