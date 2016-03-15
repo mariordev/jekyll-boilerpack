@@ -33,13 +33,21 @@ git clone https://github.com/mariordev/jekyll-boilerpack.git .
 npm update
 ```
 
-## Grunt
+## Serve
 
-Grunt is already pre-configured to run Sass preprocessing, js uglify, autoprefixing, and minification tasks and watch for changes in `_source/js/*.js` and `_source/sass/*.scss`. All you have to do is:
+Before serving the site, you must run Grunt to generate the default CSS and Javascript. Grunt is already pre-configured to run Sass preprocessing, js uglify, autoprefixing, and minification tasks and watch for changes in `_source/js/*.js` and `_source/sass/*.scss`. All you have to do is:
 
 ```bash
 grunt
 ```
+
+Now you can serve the site with:
+
+```bash
+jekyll serve
+```
+
+In your browser, go to `localhost:4000` and you should get the default index.html page.
 
 ## Folder Structure
 
