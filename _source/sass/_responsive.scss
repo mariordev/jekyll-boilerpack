@@ -2,17 +2,18 @@
 // Responsive Bootstrap Media Queries 
 // --------------------------------------------------------------
 // 
+// Use this file for responsive media queries. A default set of
+// media queries using the media-query mixin is provided.
+// 
+
 // Small devices (tablets, 768px and up)
-@media (min-width: $screen-sm-min) {
-    
+@include media-query($screen-sm-min) {
 }
 
 // Medium devices (desktops, 992px and up)
-@media (min-width: $screen-md-min) {
-
+@include media-query($screen-md-min) {
 }
 
 // Large devices (large desktops, 1200px and up)
-@media (min-width: $screen-lg-min) {
-
+@include media-query($screen-lg-min) {
 }
