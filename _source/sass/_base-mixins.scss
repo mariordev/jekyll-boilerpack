@@ -2,3 +2,13 @@
 // Custom Mixins
 // --------------------------------------------------------------
 // 
+// Use this file for your custom mixins. A default mixin is
+// provided for responsive media queries compatible
+// with Bootstrap for you to enjoy.
+// 
+
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
