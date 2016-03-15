@@ -1,0 +1,46 @@
+# -----------------------------------------------------------------------------
+# Welcome to Jekyll!
+# -----------------------------------------------------------------------------
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# -----------------------------------------------------------------------------
+# Site Settings
+# -----------------------------------------------------------------------------
+
+title:    "Jekyll BoilerPack"
+
+name:     "Your Name"
+
+company:  "Your Company Name"
+
+email:    "your-email@yourdomain.com"
+
+description: > # this means to ignore newlines until "baseurl:"
+    It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+
+# The subpath of your site, e.g. /blog
+baseurl:  ""
+
+# The base hostname & protocol for your site
+url:      "http://yourdomain.com"
+
+# Global notification, if needed. It may contain sensible HTML tags.
+notification: 
+
+twitter_username:   
+
+github_username:    
+
+# -----------------------------------------------------------------------------
+# Build Settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+
+# Ignore these files and folders
+exclude: [node_modules, _source, Gruntfile.js, package.json]

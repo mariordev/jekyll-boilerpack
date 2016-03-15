@@ -1,0 +1,27 @@
+// --------------------------------------------------------------
+// Native Tags
+// --------------------------------------------------------------
+// 
+// In this section you can apply styling to native html tags
+// such as html, body, p, ul, li, and others.
+// 
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: $footer-height;
+}
+
+// --------------------------------------------------------------
+// Override Bootstrap Classes
+// --------------------------------------------------------------
+// 
+// Most of the time you may just need to override bootstrap 
+// variables in _source/sass/_base-variables.scss, but
+// here's a dedicated place where you can override
+// or extend specific Bootstrap classes.
+// 
+

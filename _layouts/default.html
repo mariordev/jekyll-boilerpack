@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+        <a href="#c-main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+        <div class="c-wrap">
+            {% include navbar.html %}
+            
+            <div id="c-content-wrap" class="c-content-wrap">
+                {% include no-script.html %}
+
+                {% include old-browser.html %}
+
+                {% include notification.html %}
+
+                <div class="c-content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        <a href="#" id="c-go-top" class="c-go-top"><i class="fa fa-arrow-up fa-fw"></i></a>
+
+        {% include footer.html %}
+
+        {% include javascript.html %}
+
+    </body>
+
+</html>

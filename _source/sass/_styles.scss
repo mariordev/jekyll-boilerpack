@@ -1,0 +1,43 @@
+// --------------------------------------------------------------
+// Custom Styles
+// --------------------------------------------------------------
+// 
+
+.c-content-wrap {
+    outline: 0;
+    padding-bottom: $gap-xl;
+}
+
+.c-go-top {
+    background: none repeat scroll 0 0 padding-box $brand-primary;
+    bottom: $gap-md;
+    border: 1px solid $brand-primary;
+    border-radius: $border-radius-base;
+    color: #eee;
+    display: none;
+    font-size: 12px;
+    opacity: 0.8;
+    padding: $gap-sm;
+    position: fixed;
+    right: $gap-md;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.c-go-top:hover,
+.c-go-top:focus,
+.c-go-top:active,
+.c-go-top:visited {
+    color: $component-active-color;
+    outline: 0;
+    text-decoration: none;
+}
+
+.c-footer {
+    border-top: 1px solid $color-border;
+    bottom: 0;
+    height: $footer-height;
+    padding: $gap-md 0;
+    position: absolute;
+    width: 100%;
+}
