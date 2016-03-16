@@ -120,7 +120,6 @@ Displayed automatically when Javascript has been disabled on the user's browser.
 
 Displayed automatically when the variable `notification` is set in `_config.yml`. This is useful when you need to display some kind of  global notification or warning to your users on every page.
 
-
 ## Enjoy!
 
 I hope this is useful to you as it's been to me. Let me know if you have any questions or comments. I'm [@mariordev on the Twittersphere](https://www.twitter.com/mariordev). Have a great day!
